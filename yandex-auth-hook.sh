@@ -1,6 +1,4 @@
 #!/bin/bash
-#02.06.2018
-#03.09.2018
 
 _dir="$(dirname "$0")"
 source "$_dir/config.sh"
