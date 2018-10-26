@@ -1,6 +1,7 @@
 # Get your API key from https://tech.yandex.ru/pdd/doc/concepts/access-docpage
 # Get token for domain from https://tech.yandex.ru/pdd/doc/concepts/access-docpage/
 
+declare -A PDDTOKENMAP
 PDDTOKENMAP["domain1.tld"]='52 symbols of key ....'
 PDDTOKENMAP["domain2.tld"]='52 symbols of key....'
 
