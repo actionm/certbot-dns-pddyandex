@@ -26,7 +26,7 @@ cd ../ && git clone https://github.com/certbot/certbot && cd certbot
 
 #### 4) Generate wildcard
 ```bash
-./letsencrypt-auto certonly --manual-public-ip-logging-ok --agree-tos --email info@site.com --renew-by-default -d site.com -d *.site.com --manual --manual-auth-hook ../certbot-dns-pddyandex/yandex-auth-hook.sh --manual-cleanup-hook ../certbot-dns-pddyandex/yandex-cleanup-hook --preferred-challenges dns-01 --server https://acme-v02.api.letsencrypt.org/directory
+./letsencrypt-auto certonly --manual-public-ip-logging-ok --agree-tos --email info@site.com --renew-by-default -d site.com -d *.site.com --manual --manual-auth-hook ../certbot-dns-pddyandex/yandex-auth-hook.sh --manual-cleanup-hook ../certbot-dns-pddyandex/yandex-cleanup-hook.sh --preferred-challenges dns-01 --server https://acme-v02.api.letsencrypt.org/directory
 ```
 
 #### 5) Force Renew
